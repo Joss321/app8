@@ -1,6 +1,6 @@
 // JavaScript Document
 
-$(document).ready(funtion (e){
+$(document).ready(function (e){
     document.addEventListener ("deviceready",function(){
 	  $('#disp table td').eq(3).text(device.model);
 	  $('#disp table td').eq(5).text(device.cordova);
